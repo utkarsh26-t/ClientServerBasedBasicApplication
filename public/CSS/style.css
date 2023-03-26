@@ -1,0 +1,39 @@
+body{
+    font-family: 'Bebas Neue',cursive;
+    background-color: black;
+}
+
+h3{
+    padding: 16px;
+    text-align: center;
+    background-color: #996515;
+    box-shadow: 0px 2px 2px #996515;
+    font-weight: bold;
+}
+.btn{
+    background-color: #996515;
+    border: none;
+}
+.btn:hover{
+    background-color: black;
+    color: #996515;
+}
+
+.cast-box{
+    display: flex;
+    justify-content: flex-start;
+    width: 80%;
+    margin: 4px auto;
+}
+
+.picSpan{
+    width: 30%;
+}
+.cast-picture{
+    width: 100%;
+    border-radius: 50%;
+}
+.castNameSpan{
+    flex-grow: 1;
+    color: white;
+}

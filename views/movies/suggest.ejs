@@ -1,0 +1,25 @@
+<% layout('layouts/boilerplate.ejs') -%>
+
+<h3><%=`Top 3 recommendations for ${genre} movies`%></h3>
+
+
+<section class="container mt-5">
+    <div class="row text-center">
+        <%for(let movie of suggestMovies){%>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-3">>
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="<%=movie.img%>" class="card-img-top" alt="item image"">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <%=movie.name%>
+                        </h5>
+                        <a href="/show/<%=movie.name%>" class="btn">More details</a>
+                    </div>
+                </div>
+            </div>
+            <%}%>
+    </div>
+</section>
+
+
+

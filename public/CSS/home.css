@@ -1,0 +1,38 @@
+body {
+    font-family: 'Aldrich', sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2luZW1hfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    background-position: center;
+}
+
+.fa-video{
+    color: #BEBFC5;
+}
+h1{
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
+
+form {
+    width: 30vw;
+    margin: 60px auto;
+}
+
+.form-label{
+    color: white;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    width: 100%;
+    padding: 6px;
+}
+
+button:hover{
+    color: #ccc;
+}
